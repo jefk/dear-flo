@@ -10,30 +10,37 @@ html
 body
   height: 100%
   width: 100%
-  display: flex
   font-family: 'Monofett', cursive
 
-#content
-  flex: 1
-
-.fixed
+.fixie
   position: fixed
   top: 0
   bottom: 0
   left: 0
   right: 0
 
-  background: image-url(hex)
+  background: image-url(tiles)
+  background-size: 20rem
+
+.rotato
+  position: absolute
+  top: -50%
+  left: -50%
+  width: 200%
+  height: 200%
+
+  background: image-url(tiles)
+  background-size: 20rem
 
 section
   display: flex
   justify-content: center
   align-items: center
   padding: 4rem
-  background: image-url(hex)
 
 p
   margin: 0
   font-size: 3rem
+  font-weight: bold
   color: #FF007F
   background: #7FFE00
